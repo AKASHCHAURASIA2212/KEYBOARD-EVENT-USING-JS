@@ -19,31 +19,31 @@ document.addEventListener("keydown", function (event) {
       console.log("alt + shift + " + event.key);
       box.innerHTML = `<b>alt + shift + ${event.key}</b>`;
     } else if (event.key === `${event.key}` && event.altKey == true) {
-      if (event.key === "alt" && event.altKey == false) {
-        console.log("alt " + event.key);
-        box.innerHTML = `<b>alt + ${event.key}</b>`;
-      }
+      console.log("alt " + event.key);
+      box.innerHTML = `<b>alt + ${event.key}</b>`;
     } else if (event.key === `${event.key}` && event.shiftKey == true) {
-      if (event.key === "shift" && event.shiftKey == false) {
-        console.log("shift " + event.key);
-        box.innerHTML = `<b>shift + ${event.key}</b>`;
-      }
+      console.log("shift " + event.key);
+      box.innerHTML = `<b>shift + ${event.key}</b>`;
     } else if (event.key === `${event.key}` && event.ctrlKey == true) {
-      if (event.key === "ctrl" && event.ctrlKey == false) {
-        console.log("ctrl " + event.key);
-        box.innerHTML = `<b>ctrl + ${event.key}</b>`;
-      }
+      console.log("ctrl " + event.key);
+      box.innerHTML = `<b>ctrl + ${event.key}</b>`;
     } else if (event.key === `${event.key}`) {
       console.log("key pressed " + event.key + " " + event.code);
       box.innerHTML = `<b>${event.key}</b>`;
     }
 
     console.log("Div created");
-
+    // choosing color according to keypress
+    // a-z red-color
+    // 0-9 blue color
+    // function key yellow
+    // special key voilet
+    let color = "black";
     let eventBox = document.createElement("div");
     eventBox.classList.add("key-info-div");
+
     eventBox.innerHTML = `
-    <div class="event">keydown</div>
+    <div class="event">Keydown</div>
     <dic class="key">${event.key}</dic>
     <div class="code">${event.code}</div>
   `;
@@ -70,20 +70,14 @@ document.addEventListener("keypress", function (event) {
       console.log("alt + shift + " + event.key);
       box.innerHTML = `<b>alt + shift + ${event.key}</b>`;
     } else if (event.key === `${event.key}` && event.altKey == true) {
-      if (event.key === "alt" && event.altKey == false) {
-        console.log("alt " + event.key);
-        box.innerHTML = `<b>alt + ${event.key}</b>`;
-      }
+      console.log("alt " + event.key);
+      box.innerHTML = `<b>alt + ${event.key}</b>`;
     } else if (event.key === `${event.key}` && event.shiftKey == true) {
-      if (event.key === "shift" && event.shiftKey == false) {
-        console.log("shift " + event.key);
-        box.innerHTML = `<b>shift + ${event.key}</b>`;
-      }
+      console.log("shift " + event.key);
+      box.innerHTML = `<b>shift + ${event.key}</b>`;
     } else if (event.key === `${event.key}` && event.ctrlKey == true) {
-      if (event.key === "ctrl" && event.ctrlKey == false) {
-        console.log("ctrl " + event.key);
-        box.innerHTML = `<b>ctrl + ${event.key}</b>`;
-      }
+      console.log("ctrl " + event.key);
+      box.innerHTML = `<b>ctrl + ${event.key}</b>`;
     } else if (event.key === `${event.key}`) {
       console.log("key pressed " + event.key + " " + event.code);
       box.innerHTML = `<b>${event.key}</b>`;
@@ -121,20 +115,14 @@ document.addEventListener("keyup", function (event) {
       console.log("alt + shift + " + event.key);
       box.innerHTML = `<b>alt + shift + ${event.key}</b>`;
     } else if (event.key === `${event.key}` && event.altKey == true) {
-      if (event.key === "alt" && event.altKey == false) {
-        console.log("alt " + event.key);
-        box.innerHTML = `<b>alt + ${event.key}</b>`;
-      }
+      console.log("alt " + event.key);
+      box.innerHTML = `<b>alt + ${event.key}</b>`;
     } else if (event.key === `${event.key}` && event.shiftKey == true) {
-      if (event.key === "shift" && event.shiftKey == false) {
-        console.log("shift " + event.key);
-        box.innerHTML = `<b>shift + ${event.key}</b>`;
-      }
+      console.log("shift " + event.key);
+      box.innerHTML = `<b>shift + ${event.key}</b>`;
     } else if (event.key === `${event.key}` && event.ctrlKey == true) {
-      if (event.key === "ctrl" && event.ctrlKey == false) {
-        console.log("ctrl " + event.key);
-        box.innerHTML = `<b>ctrl + ${event.key}</b>`;
-      }
+      console.log("ctrl " + event.key);
+      box.innerHTML = `<b>ctrl + ${event.key}</b>`;
     } else if (event.key === `${event.key}`) {
       console.log("key pressed " + event.key + " " + event.code);
       box.innerHTML = `<b>${event.key}</b>`;
