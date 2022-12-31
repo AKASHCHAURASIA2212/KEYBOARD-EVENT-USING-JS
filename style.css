@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #4834d4;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.outer-box {
+  height: 50vh;
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 1rem;
+  /* background-color: gray; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.box1 {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.box2 {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 1rem 4rem;
+  font-size: 3rem;
+  font-weight: 800px;
+  background-color: black;
+  color: white;
+  height: 20vh;
+  width: 40vw;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  position: static;
+  /* height: 50px; */
+  width: 100vw;
+  /* background-color: green; */
+  /* border: 2px solid red; */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin: 1rem 2rem;
+  padding: 1rem;
+  background: #151515;
+}
+
+.logo i {
+  padding: 1rem;
+  margin-right: 1rem;
+  font-size: 2rem;
+  color: black;
+  background-color: #eb4d4b;
+  border-radius: ;
+  border: 2px solid #151515;
+}
+
+.event,
+.code,
+.key {
+  /* border: 2px solid black; */
+}
+
+.info {
+  width: 80%;
+  /* background-color: aliceblue; */
+  border: 2px solid black;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.key-info {
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+  border: 3px solid black;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  background-color: black;
+}
+
+.key-info-div {
+  /* width: 100%; */
+  border: 2px solid black;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  padding: 1rem;
+  justify-content: space-around;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.key-info-container .event {
+  padding-left: 1rem;
+}
+
+.key-info-container .code {
+  padding-right: 1.5rem;
+}
+
+.key {
+  text-align: center;
+}
+
+/* UTILITY CLASSES */
+
+.yellow {
+  background-color: #f1c40f;
+}
+
+.voilet {
+  background: #8e44ad;
+}
+
+.light-voilet {
+  background-color: #e056fd;
+}
+
+.green {
+  background-color: #27ae60;
+}
+
+.gray {
+  background-color: #bdc3c7;
+}
+
+.dark-voilet {
+  background-color: #130f40;
+}
+
+.light-red {
+  background-color: #eb4d4b;
+}
+
+.dark-blue {
+  background-color: #4834d4;
+}
+
+.light-blue {
+  background-color: #22a6b3;
+}
